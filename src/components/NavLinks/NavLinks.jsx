@@ -6,7 +6,7 @@ const NavLinks = ({toggleMobNav}) => {
         <nav className='nav-links'>
             <ul>
                 <li>
-                    <a href="/" className='nav-link-item' onClick={toggleMobNav}>Home</a>
+                    <a href="#home" className='nav-link-item' onClick={toggleMobNav}>Home</a>
                 </li>
                 <li>
                     <a href="#about" className='nav-link-item' onClick={toggleMobNav}>about</a>
