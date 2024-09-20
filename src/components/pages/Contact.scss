@@ -1,0 +1,42 @@
+.contact {
+    padding: 5rem 0;
+
+    .container {
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+
+            h1 {
+                font-size: 2rem;
+                font-weight: 700;
+
+
+                .nameColor {
+                    font-size: 2rem;
+                    font-weight: 700;
+                    color: var(--secondary-color);
+                }
+            }
+
+            .contact-msg{
+                max-width: 600px;
+                margin-top: 1.5rem;
+
+                .contact-button{
+                    background-color: var(--secondary-color);
+                    outline: none;
+                    border: none;
+
+                    &:hover{
+                        box-shadow: 0 0 9px 0 var(--secondary-color);
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}

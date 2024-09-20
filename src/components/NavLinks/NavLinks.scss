@@ -1,0 +1,28 @@
+.nav-links{
+    padding: 10px;
+
+    ul{
+        display: flex;   
+        
+        li{
+            list-style: none;
+            margin-right: 15px;
+
+            .nav-link-item{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #FFFBF5;
+                letter-spacing: 1px;
+
+                &:hover{
+                    cursor: pointer;
+                    color: #FF8343;
+                    border-bottom: 3px solid #FF8343;
+                    transition: all 0.2s ease-in-out;
+                }
+
+            
+            }
+        }
+    }
+}
